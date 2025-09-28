@@ -13,7 +13,16 @@ CREATE TABLE T_Person (
     Geburtsdatum DATE NOT NULL,
     -- Telefonnummer als Text (max. 20 Zeichen)
     Telefonnummer VARCHAR2(20) NOT NULL,
-    -- Steuer_Id als Zahl
-    Steuer_Id NUMBER NOT NULL,
-    -- TODO: Es fehlen noch weitere Attribute z.b. Religion, Familienstand, ...
+    -- Steuer_Id als Text (max. 20 Zeichen)
+    Steuer_Id VARCHAR2(20) NOT NULL,
+    -- Religion als Text (max. 20 Zeichen)
+    Religion VARCHAR2(20),
+    -- Familienstand als Text (max. 10 Zeichen)
+    Familienstand VARCHAR2(10),
+    -- Herkunftsland als Text (max. 20 Zeichen)
+    Herkunftsland VARCHAR2(20),
+    -- Zubringerschule als Text (max. 50 Zeichen)
+    Zubringerschule VARCHAR2(50),
+    -- Notfallkontakt als Text (max. 50 Zeichen)
+    Notfallkontakt VARCHAR2(50)
 );

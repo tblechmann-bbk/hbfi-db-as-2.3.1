@@ -32,9 +32,8 @@ SELECT * FROM dual;
 |----------|----------|----------|
 | NUMBER | `42`, `3.14` | |
 | VARCHAR2/CHAR | `'Text'` | Strings immer in einfachen Hochkommas `'...'` |
-| Apostroph im String | `'O''Reilly'` | Verdoppeln zum Escapen |
 | DATE | `DATE '2025-09-28'` | ANSI-Literal (YYYY-MM-DD) |
-| DATE (flexibel) | `TO_DATE('28.09.2025','DD.MM.YYYY')` | Formatmaske passend |
+| DATE (flexibel) | `TO_DATE('28.09.2025','DD.MM.YYYY')` | Formatmaske passend. DD ist der Tag mit zwei Zeichen, MM der Monat mit zwei Zeichen und YYYY das Jahr mit vier Zeichen |
 
 ## 4. Tipp: Fehlercodes genau lesen
 
