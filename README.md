@@ -33,3 +33,7 @@ Eigentlich sollte laut Projektplan **bis morgen** zumindest **die Tabelle für "
 
 ### Sign-In Link
 [Oracle Sign-In](https://oracleapex.com/ords/r/apex/workspace-sign-in/oracle-apex-sign-in)
+
+### Daten ansehen in Oracle Apex
+
+[Videohilfe zum Object-Browser](https://bergischesbk.sharepoint.com/:v:/s/25-HBFI1-DB/EciduP6qFBNIpAptSMHoouwBIFzPpL-psg88vQ57O0ydbA?e=iUtG96)
