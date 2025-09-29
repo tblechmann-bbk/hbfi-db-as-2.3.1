@@ -34,6 +34,9 @@ Eigentlich sollte laut Projektplan **bis morgen** zumindest **die Tabelle für "
 ### Sign-In Link
 [Oracle Sign-In](https://oracleapex.com/ords/r/apex/workspace-sign-in/oracle-apex-sign-in)
 
-### Daten ansehen in Oracle Apex
+### Oracle Apex Hilfsvideos
 
-[Videohilfe zum Object-Browser](https://bergischesbk.sharepoint.com/:v:/s/25-HBFI1-DB/EciduP6qFBNIpAptSMHoouwBIFzPpL-psg88vQ57O0ydbA?e=iUtG96)
+- SQL Script in Oracle Apex ausführen
+- Daten ansehen in Oracle Apex
+
+[Hilfsvideos zu Oracle Apex](https://bergischesbk.sharepoint.com/:f:/s/25-HBFI1-DB/Eqat9TRSXWNDv8rAWHDACREB8WIyuBtH_QSTcwUF72cSgg?e=Lx7rY1)
