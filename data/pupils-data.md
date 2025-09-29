@@ -6,5 +6,5 @@
 | Lena    | Schubert   | 11.03.2005   | 01711223344  | weiblich   | 218/547/96325  | Christentum | ledig         | Deutschland  | Gesamtschule Waldbröl                       | Thomas Schubert  |
 | Jonas   | Becker     | 29.09.2006   | 01719876543  | männlich   | 315/774/55210  | Atheismus   | ledig         | Deutschland  | Realschule Nümbrecht                        | Anna Becker      |
 | Sara    | Özdemir    | 07.02.2005   | 01706655443  | weiblich   | 564/220/78411  | Islam       | ledig         | Türkei       | Gymnasium Lindlar                           | Aylin Özdemir    |
-| Noah    | O'Neil     | 23.06.2004   | 01629988776  | männlich   | 472/889/33107  |             | ledig         | USA  | Gesamtschule Marienheide                    | Peter O'Neil     |
+| Noah    | O'Neil     | 23.06.2004   | 01629988776  | männlich   | 472/889/33107  | Christentum | ledig         | USA  | Gesamtschule Marienheide                    | Peter O'Neil     |
 | Mia     | Nguyen     | 18.11.2007   | 01517773355  | weiblich   | 690/145/22018  | Buddhismus  | ledig         | Vietnam      | Gesamtschule Waldbröl                       | Lan Nguyen       |

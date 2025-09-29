@@ -1,0 +1,3 @@
+-- Skript um die anderen Datensätze aus /data/pupils-data.md in die Tabelle T_Person einzufügen
+-- Autor: BadChoice Agentur
+-- TODO: Work-In-Progress
