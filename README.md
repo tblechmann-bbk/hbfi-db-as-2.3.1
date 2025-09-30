@@ -17,6 +17,7 @@ Eigentlich sollte laut Projektplan **bis morgen** zumindest **die Tabelle für "
 - /scripts/insert-person-1.sql 
 - /scripts/insert-person-2.sql 
 - /scripts/insert-person-3.sql
+- /scripts/insert-person-4-8.sql
 #### Original Schüler-Testdaten der Schule
 - /data/pupils-data.md
 #### Hilfe Dateien zu SQL Befehlen
