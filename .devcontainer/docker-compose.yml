@@ -15,16 +15,17 @@ services:
       - "5500:5500"
     environment:
       ORACLE_PASSWORD: "oracle"
-      APP_USER: "app"
-      APP_USER_PASSWORD: "app"
+      APP_USER: "schueler"
+      APP_USER_PASSWORD: "schueler"
       ORACLE_CHARACTERSET: "AL32UTF8"
+      # FREEPDB1 is the default service name for the free edition
     healthcheck:
       test: ["CMD", "healthcheck.sh"]
       interval: 20s
       timeout: 5s
       retries: 20
     volumes:
-      - oracle-data:/opt/oracle/oradata
+      - oracle-data-hbfi-db-as-2-3-1:/opt/oracle/oradata
 
 volumes:
-  oracle-data:
+  oracle-data-hbfi-db-as-2-3-1:
