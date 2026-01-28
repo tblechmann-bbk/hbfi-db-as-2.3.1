@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/base:ubuntu
+    volumes:
+      - ../..:/workspaces:cached
+    network_mode: service:oracle-db
+    command: sleep infinity
+
+  oracle-db:
+    image: gvenzl/oracle-free:latest
+    container_name: oracle-free-db
+    ports:
+      - "1521:1521"
+      - "5500:5500"
+    environment:
+      ORACLE_PASSWORD: "oracle"
+      APP_USER: "app"
+      APP_USER_PASSWORD: "app"
+      ORACLE_CHARACTERSET: "AL32UTF8"
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 20s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+
+volumes:
+  oracle-data:
